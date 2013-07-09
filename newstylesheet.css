@@ -57,6 +57,8 @@ body {
 }
 .facebook:hover {
 	background: rgb(19, 55, 131);
+	width: 200px;
+	font-size: 48px;
 }
 .twitter {
 	border-left: #3d464e 1px solid;
@@ -66,6 +68,8 @@ body {
 }
 .twitter:hover {
 	background: #3c8fc9;
+	width: 200px;
+	font-size: 48px
 }
 .instagram {
 	border-left: #3d464e 1px solid;
@@ -74,6 +78,8 @@ body {
 }
 .instagram:hover {
 	background-color: rgb(81,127,164);
+	width: 200px;
+	font-size: 48px
 }
 .github {
 	border-left: #3d464e 1px solid;
@@ -82,7 +88,9 @@ body {
 
 }
 .github:hover {
-	background: #989898
+	background: #989898;
+	width: 200px;
+	font-size: 48px
 }
 .contactme {
 	border-right: #3d464e 2px solid;
@@ -90,7 +98,9 @@ body {
 	padding-left: 20px;
 }
 .contactme:hover {
-	background: #00FF00
+	background: #00FF00;
+	width: 200px;
+	font-size: 48px
 }
 .leftcontent h1, h2{
 	color: rgb(0, 170, 240);
@@ -116,14 +126,15 @@ body {
 	font-family: BebasNeueRegular;
 	font-weight: normal;
 	font-size:24px;
-	color: rgb(0, 170, 240);
 	display: inline;
-	border-left: #262b30 110px solid;
 	padding-left: 15px;
-}
-.leftcontent h3:hover {
 	color: black;
 	border-left: #1b1e22 110px solid;
+}
+.leftcontent h3:hover {
+	border-left: #262b30 110px solid;
+	color: rgb(0, 170, 240);
+
 }
 .leftcontent p {
 	color: #657381;
@@ -145,12 +156,12 @@ body {
 	z-index: -1;
 	background: #262b30;
 	padding-top: 144px;
-   	padding-left: 15px;
-   	padding-right: 15px;
-   	padding-bottom: 40px;
-   	color: #9eaebe;
-   	font-size: 11px;
-   	overflow: hidden;
+ 	padding-left: 15px;
+ 	padding-right: 15px;
+ 	padding-bottom: 40px;
+ 	color: #9eaebe;
+ 	font-size: 11px;
+ 	overflow: hidden;
 }
 .rightcontent h2 {
 	color: #00aaf0;
@@ -169,5 +180,17 @@ body {
 }
 .rightcontent ul {
 	list-style: none;
+}
+.footer {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+}
+a {
+	font-style: none;
+}
+a:visited {
+	color: lightblue
 }
 
